@@ -29,7 +29,7 @@ function processMessage(message) {
 }
 
 function sendToAPI(fileBlob, fileNameSuffix) {
-  const url = 'https://fluturas-inatorul.vercel.app/api/extract'; // Replace with your Vercel API endpoint
+  const url = 'https://fluturas-inatorul-sigma.vercel.app/api/extract'; // Replace with your Vercel API endpoint
   
   const formData = {
     file: fileBlob
@@ -59,7 +59,7 @@ function sendToAPI(fileBlob, fileNameSuffix) {
 }
 
 function callPeDeFeInatorul(png_64, fileNameSuffix) {
-  const url = 'https://flask-hello-world-xi0b.onrender.com/convert'; // Replace with your Vercel API endpoint
+  const url = 'https://pedefeinatorul-ujtg.onrender.com/convert'; // Replace with your Vercel API endpoint
   
   const payload = {
     method: 'POST',
